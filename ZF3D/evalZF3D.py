@@ -79,14 +79,14 @@ if __name__ == "__main__":
 
     eval = Zef_3d()
 
-    benchmark_name = "3D-ZeF20"
-    gt_dir = "data/3DZeF20"
-    res_dir = "res/ZeFres"
-    eval_mode = "train"
+    benchmark_name = "3D-MuPPET"
+    gt_dir = "data/3DMuppetGT"
+    res_dir = "res/3DMuppetRes"
+    eval_mode = "test"
 
     eval.run(
 		benchmark_name = benchmark_name,
 		gt_dir = gt_dir,
 		res_dir = res_dir,
 		eval_mode = eval_mode,
-		save_pkl = "eval_results")
+q		save_pkl = "eval_results")

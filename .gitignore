@@ -1,0 +1,6 @@
+.idea
+__pycache__
+ZF3D/data/
+ZF3D/eval_results/
+ZF3D/res/
+ZF3D/seqmaps/
