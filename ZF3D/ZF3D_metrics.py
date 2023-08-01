@@ -23,9 +23,9 @@ class Zef_3dMetrics(Metrics):
             self.seqName = seqName
         else: self.seqName = 0
 
-        # The maximum allowed distance in centimetres between detections and
+        # The maximum allowed distance in mm between detections and
         # ground truth positions
-        self.thresh_3d = 0.5
+        self.thresh_3d = 30
 
         print('Registrering metrics for sequence {0}'.format(self.seqName))
 
